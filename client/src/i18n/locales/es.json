@@ -1,0 +1,62 @@
+{
+  "language": {
+    "select": "Seleccionar idioma"
+  },
+  "brand": {
+    "name": "Tienda Global"
+  },
+  "nav": {
+    "about": "Sobre Nosotros"
+  },
+  "product": {
+    "featured": "Productos Destacados",
+    "recommended": "Productos Recomendados",
+    "inStock": "{{count}} en existencia",
+    "items": {
+      "wirelessHeadphones": {
+        "name": "Auriculares Inalámbricos",
+        "description": "Auriculares inalámbricos de alta calidad con cancelación de ruido"
+      },
+      "smartWatch": {
+        "name": "Reloj Inteligente",
+        "description": "Reloj inteligente con seguimiento de salud"
+      },
+      "laptopStand": {
+        "name": "Soporte para Portátil",
+        "description": "Soporte ergonómico de aluminio para portátil con altura ajustable"
+      },
+      "professionalCamera": {
+        "name": "Cámara Profesional",
+        "description": "Cámara DSLR de alta resolución para fotografía profesional"
+      },
+      "yogaMat": {
+        "name": "Tapete de Yoga",
+        "description": "Tapete antideslizante para yoga con correa de transporte"
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "history": {
+      "title": "Nuestra Historia",
+      "content": "Fundada en 2010, nos hemos comprometido a ofrecer productos de calidad a clientes de todo el mundo. Nuestro viaje comenzó con una idea simple: hacer que las compras sean accesibles para todos, independientemente del idioma o la ubicación."
+    },
+    "contact": {
+      "title": "Información de Contacto",
+      "address": {
+        "title": "Dirección",
+        "line1": "Calle Global 123",
+        "line2": "Distrito Comercial",
+        "line3": "Nueva York, NY 10001"
+      },
+      "phone": {
+        "title": "Teléfono",
+        "number": "+1 (555) 123-4567"
+      },
+      "email": {
+        "title": "Correo Electrónico",
+        "address": "contacto@tiendaglobal.com"
+      }
+    }
+  }
+}

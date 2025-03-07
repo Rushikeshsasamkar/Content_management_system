@@ -1,0 +1,38 @@
+{
+  "language": {
+    "select": "Seleziona lingua"
+  },
+  "brand": {
+    "name": "Negozio Globale"
+  },
+  "nav": {
+    "about": "Chi Siamo"
+  },
+  "product": {
+    "featured": "Prodotti in Evidenza",
+    "recommended": "Prodotti Consigliati",
+    "inStock": "{{count}} disponibili",
+    "items": {
+      "wirelessHeadphones": {
+        "name": "Cuffie Wireless",
+        "description": "Cuffie wireless di alta qualità con cancellazione del rumore"
+      },
+      "smartWatch": {
+        "name": "Smartwatch",
+        "description": "Smartwatch ricco di funzionalità con monitoraggio della salute"
+      },
+      "laptopStand": {
+        "name": "Supporto per Laptop",
+        "description": "Supporto ergonomico in alluminio per laptop con altezza regolabile"
+      },
+      "professionalCamera": {
+        "name": "Fotocamera Professionale",
+        "description": "Fotocamera DSLR ad alta risoluzione per fotografia professionale"
+      },
+      "yogaMat": {
+        "name": "Tappetino Yoga",
+        "description": "Tappetino yoga antiscivolo con cinghia per il trasporto"
+      }
+    }
+  }
+}

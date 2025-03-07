@@ -1,0 +1,62 @@
+{
+  "language": {
+    "select": "Select language"
+  },
+  "brand": {
+    "name": "Global Shop"
+  },
+  "nav": {
+    "about": "About Us"
+  },
+  "product": {
+    "featured": "Featured Products",
+    "recommended": "Recommended Products",
+    "inStock": "{{count}} in stock",
+    "items": {
+      "wirelessHeadphones": {
+        "name": "Wireless Headphones",
+        "description": "High-quality wireless headphones with noise cancellation"
+      },
+      "smartWatch": {
+        "name": "Smart Watch",
+        "description": "Feature-rich smartwatch with health tracking"
+      },
+      "laptopStand": {
+        "name": "Laptop Stand",
+        "description": "Ergonomic aluminum laptop stand with adjustable height"
+      },
+      "professionalCamera": {
+        "name": "Professional Camera",
+        "description": "High-resolution DSLR camera for professional photography"
+      },
+      "yogaMat": {
+        "name": "Yoga Mat",
+        "description": "Non-slip yoga mat with carrying strap"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "history": {
+      "title": "Our History",
+      "content": "Founded in 2010, we've been committed to bringing quality products to customers worldwide. Our journey began with a simple idea: make shopping accessible to everyone, regardless of language or location."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "address": {
+        "title": "Address",
+        "line1": "123 Global Street",
+        "line2": "Business District",
+        "line3": "New York, NY 10001"
+      },
+      "phone": {
+        "title": "Phone",
+        "number": "+1 (555) 123-4567"
+      },
+      "email": {
+        "title": "Email",
+        "address": "contact@globalshop.com"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "language": {
+    "select": "选择语言"
+  },
+  "brand": {
+    "name": "环球商店"
+  },
+  "nav": {
+    "about": "关于我们"
+  },
+  "product": {
+    "featured": "精选产品",
+    "recommended": "推荐产品",
+    "inStock": "库存 {{count}} 件",
+    "items": {
+      "wirelessHeadphones": {
+        "name": "无线耳机",
+        "description": "高品质降噪无线耳机"
+      },
+      "smartWatch": {
+        "name": "智能手表",
+        "description": "具有健康追踪功能的多功能智能手表"
+      },
+      "laptopStand": {
+        "name": "笔记本支架",
+        "description": "可调节高度的人体工学铝制笔记本支架"
+      },
+      "professionalCamera": {
+        "name": "专业相机",
+        "description": "适用于专业摄影的高分辨率单反相机"
+      },
+      "yogaMat": {
+        "name": "瑜伽垫",
+        "description": "带有背带的防滑瑜伽垫"
+      }
+    }
+  }
+}

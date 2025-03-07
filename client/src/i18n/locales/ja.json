@@ -1,0 +1,38 @@
+{
+  "language": {
+    "select": "言語を選択"
+  },
+  "brand": {
+    "name": "グローバルショップ"
+  },
+  "nav": {
+    "about": "会社概要"
+  },
+  "product": {
+    "featured": "おすすめ商品",
+    "recommended": "関連商品",
+    "inStock": "在庫 {{count}} 個",
+    "items": {
+      "wirelessHeadphones": {
+        "name": "ワイヤレスヘッドホン",
+        "description": "ノイズキャンセリング機能付き高品質ワイヤレスヘッドホン"
+      },
+      "smartWatch": {
+        "name": "スマートウォッチ",
+        "description": "健康管理機能付き多機能スマートウォッチ"
+      },
+      "laptopStand": {
+        "name": "ノートパソコンスタンド",
+        "description": "高さ調節可能な人間工学アルミニウムノートパソコンスタンド"
+      },
+      "professionalCamera": {
+        "name": "プロ用カメラ",
+        "description": "プロフェッショナル撮影用高解像度デジタル一眼レフカメラ"
+      },
+      "yogaMat": {
+        "name": "ヨガマット",
+        "description": "持ち運び用ストラップ付き滑り止めヨガマット"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "language": {
+    "select": "Sprache auswählen"
+  },
+  "brand": {
+    "name": "Globaler Shop"
+  },
+  "nav": {
+    "about": "Über uns"
+  },
+  "product": {
+    "featured": "Ausgewählte Produkte",
+    "recommended": "Empfohlene Produkte",
+    "inStock": "{{count}} auf Lager",
+    "items": {
+      "wirelessHeadphones": {
+        "name": "Kabellose Kopfhörer",
+        "description": "Hochwertige kabellose Kopfhörer mit Geräuschunterdrückung"
+      },
+      "smartWatch": {
+        "name": "Smartwatch",
+        "description": "Funktionsreiche Smartwatch mit Gesundheitstracking"
+      },
+      "laptopStand": {
+        "name": "Laptop-Ständer",
+        "description": "Ergonomischer Aluminium-Laptopständer mit verstellbarer Höhe"
+      },
+      "professionalCamera": {
+        "name": "Professionelle Kamera",
+        "description": "Hochauflösende DSLR-Kamera für professionelle Fotografie"
+      },
+      "yogaMat": {
+        "name": "Yogamatte",
+        "description": "Rutschfeste Yogamatte mit Tragegurt"
+      }
+    }
+  }
+}
