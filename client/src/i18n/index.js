@@ -30,10 +30,9 @@ i18n
     }
   });
 
-// Add a function to load translations dynamically
+// Function to change the language dynamically
 export const changeLanguage = async (language) => {
   try {
-    // Only load if not already loaded
     if (!i18n.hasResourceBundle(language, 'translation')) {
       const translations = await loadLanguageModule(language);
       if (translations) {
@@ -43,8 +42,7 @@ export const changeLanguage = async (language) => {
     await i18n.changeLanguage(language);
   } catch (error) {
     console.error('Error changing language:', error);
-    // Fallback to English
-    await i18n.changeLanguage('en');
+    await i18n.changeLanguage('en'); // Fallback to English
   }
 };
 
