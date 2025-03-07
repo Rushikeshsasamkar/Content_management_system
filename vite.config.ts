@@ -5,22 +5,22 @@ import path, { dirname } from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 import { fileURLToPath } from "url";
 
+// Fix: Get __dirname properly
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+
+// Fix: Import cartographer only when in development & Replit environment
+const isReplit = process.env.NODE_ENV !== "production" && process.env.REPL_ID;
+const cartographerPlugin = isReplit
+  ? require("@replit/vite-plugin-cartographer").cartographer()
+  : null;
 
 export default defineConfig({
   plugins: [
     react(),
     runtimeErrorOverlay(),
     themePlugin(),
-    ...(process.env.NODE_ENV !== "production" &&
-    process.env.REPL_ID !== undefined
-      ? [
-          await import("@replit/vite-plugin-cartographer").then((m) =>
-            m.cartographer(),
-          ),
-        ]
-      : []),
+    ...(cartographerPlugin ? [cartographerPlugin] : []), // Only add if defined
   ],
   resolve: {
     alias: {
@@ -30,7 +30,7 @@ export default defineConfig({
   },
   root: path.resolve(__dirname, "client"),
   build: {
-    outDir: path.resolve(__dirname, "dist/public"),
+    outDir: path.resolve(__dirname, "dist/public"), // Ensure correct output path
     emptyOutDir: true,
   },
 });
