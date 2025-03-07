@@ -1,36 +1,38 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-// Import only English translations by default
-import enTranslations from './locales/en.json';
-
+// Function to dynamically load language files
 const loadLanguageModule = async (language) => {
   try {
     const module = await import(`./locales/${language}.json`);
     return module.default;
   } catch (error) {
     console.error(`Failed to load translations for ${language}:`, error);
-    return null;
+    return {}; // Return an empty object to avoid crashes
   }
 };
 
-i18n
-  .use(initReactI18next)
-  .init({
+(async function initializeI18n() {
+  const enTranslations = await loadLanguageModule('en');
+
+  await i18n.use(initReactI18next).init({
     resources: {
       en: { translation: enTranslations }
     },
     lng: localStorage.getItem('language') || 'en',
     fallbackLng: 'en',
-    interpolation: {
-      escapeValue: false
-    },
-    react: {
-      useSuspense: false
-    }
+    interpolation: { escapeValue: false },
+    react: { useSuspense: false },
   });
 
-// Function to change the language dynamically
+  // Load stored language if different from English
+  const currentLanguage = localStorage.getItem('language') || 'en';
+  if (currentLanguage !== 'en') {
+    await changeLanguage(currentLanguage);
+  }
+})();
+
+// Function to change language dynamically
 export const changeLanguage = async (language) => {
   try {
     if (!i18n.hasResourceBundle(language, 'translation')) {
@@ -45,11 +47,5 @@ export const changeLanguage = async (language) => {
     await i18n.changeLanguage('en'); // Fallback to English
   }
 };
-
-// Load initial language
-const currentLanguage = localStorage.getItem('language') || 'en';
-if (currentLanguage !== 'en') {
-  changeLanguage(currentLanguage);
-}
 
 export default i18n;
