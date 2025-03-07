@@ -1,0 +1,62 @@
+{
+  "language": {
+    "select": "Sélectionner la langue"
+  },
+  "brand": {
+    "name": "Boutique Mondiale"
+  },
+  "nav": {
+    "about": "À Propos"
+  },
+  "product": {
+    "featured": "Produits Vedettes",
+    "recommended": "Produits Recommandés",
+    "inStock": "{{count}} en stock",
+    "items": {
+      "wirelessHeadphones": {
+        "name": "Écouteurs Sans Fil",
+        "description": "Écouteurs sans fil de haute qualité avec réduction de bruit"
+      },
+      "smartWatch": {
+        "name": "Montre Connectée",
+        "description": "Montre connectée avec suivi de la santé"
+      },
+      "laptopStand": {
+        "name": "Support pour Ordinateur Portable",
+        "description": "Support ergonomique en aluminium pour ordinateur portable avec hauteur réglable"
+      },
+      "professionalCamera": {
+        "name": "Appareil Photo Professionnel",
+        "description": "Appareil photo reflex numérique haute résolution pour la photographie professionnelle"
+      },
+      "yogaMat": {
+        "name": "Tapis de Yoga",
+        "description": "Tapis de yoga antidérapant avec sangle de transport"
+      }
+    }
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "history": {
+      "title": "Notre Histoire",
+      "content": "Fondée en 2010, nous nous engageons à apporter des produits de qualité aux clients du monde entier. Notre voyage a commencé avec une idée simple : rendre le shopping accessible à tous, quelle que soit la langue ou l'emplacement."
+    },
+    "contact": {
+      "title": "Informations de Contact",
+      "address": {
+        "title": "Adresse",
+        "line1": "123 Rue Mondiale",
+        "line2": "Quartier des Affaires",
+        "line3": "New York, NY 10001"
+      },
+      "phone": {
+        "title": "Téléphone",
+        "number": "+1 (555) 123-4567"
+      },
+      "email": {
+        "title": "Email",
+        "address": "contact@boutiquemondiale.com"
+      }
+    }
+  }
+}

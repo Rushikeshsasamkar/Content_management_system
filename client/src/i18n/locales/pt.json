@@ -1,0 +1,38 @@
+{
+  "language": {
+    "select": "Selecionar idioma"
+  },
+  "brand": {
+    "name": "Loja Global"
+  },
+  "nav": {
+    "about": "Sobre Nós"
+  },
+  "product": {
+    "featured": "Produtos em Destaque",
+    "recommended": "Produtos Recomendados",
+    "inStock": "{{count}} em estoque",
+    "items": {
+      "wirelessHeadphones": {
+        "name": "Fones de Ouvido Sem Fio",
+        "description": "Fones de ouvido sem fio de alta qualidade com cancelamento de ruído"
+      },
+      "smartWatch": {
+        "name": "Relógio Inteligente",
+        "description": "Relógio inteligente com monitoramento de saúde"
+      },
+      "laptopStand": {
+        "name": "Suporte para Notebook",
+        "description": "Suporte ergonômico de alumínio para notebook com altura ajustável"
+      },
+      "professionalCamera": {
+        "name": "Câmera Profissional",
+        "description": "Câmera DSLR de alta resolução para fotografia profissional"
+      },
+      "yogaMat": {
+        "name": "Tapete de Yoga",
+        "description": "Tapete antiderrapante para yoga com alça de transporte"
+      }
+    }
+  }
+}
